@@ -5,7 +5,7 @@ const App = () => {
   return(
     <>
     <NavBar/>
-    <ItemListContainer mensaje="Bienvenidos"/>
+    <ItemListContainer mensaje="Bienvenidos a LionBeat Music"/>
     </>
   )
 }
