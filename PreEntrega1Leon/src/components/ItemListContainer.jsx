@@ -14,17 +14,17 @@ const LandingPage = (props) => {
         <h2>Explora Nuestra Colección</h2>
         <div style={cardsContainerStyle}>
         <div style={cardStyle}>
-        <img src={Guitarra} alt="Tienda Musical" width="170" />
+        <img src={Guitarra} alt="Guitarra Acústica" width="170" />
           <h3>Guitarra Acústica</h3>
           <p>Perfecta para tus sesiones acústicas.</p>
         </div>
         <div style={cardStyle}>
-        <img src={Teclado} alt="Tienda Musical" width="380" />
+        <img src={Teclado} alt="Teclado Eléctrico" width="380" />
           <h3>Teclado Eléctrico</h3>
           <p>Crea melodías impresionantes.</p>
         </div>
         <div style={cardStyle}>
-        <img src={Bateria} alt="Tienda Musical" width="350" />
+        <img src={Bateria} alt="Batería Profesional" width="350" />
           <h3>Batería Profesional</h3>
           <p>Siente el ritmo con nuestra batería de alta calidad.</p>
         </div>
