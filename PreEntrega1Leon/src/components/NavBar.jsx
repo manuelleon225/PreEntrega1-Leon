@@ -14,22 +14,22 @@ const NavBar = () => {
         <div className="col-9 col-md-8">
           <ul className="nav">
             <li className="nav-item">
-              <a className="nav-link" style={navLinkStyle}>
+              <a className="nav-link" style={navLinkStyle} href='#'>
                 <FontAwesomeIcon icon={faMusic} /> Instrumentos Musicales
               </a>
             </li>
             <li className="nav-item active" >
-              <a className="nav-link" style={navLinkStyle}>
+              <a className="nav-link" style={navLinkStyle} href='#'>
                 <FontAwesomeIcon icon={faHeadphones} /> Audio Y amplificación
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" style={navLinkStyle}>
+              <a className="nav-link" style={navLinkStyle} href='#'>
                 <FontAwesomeIcon icon={faVolumeHigh} /> Producción Musical
               </a>
             </li>
             <li className="nav-item">
-              <a to="/merch" className="nav-link" style={navLinkStyle}>
+              <a className="nav-link" style={navLinkStyle} href='#'>
                 <FontAwesomeIcon icon={faBagShopping} /> Merch
               </a>
             </li>
